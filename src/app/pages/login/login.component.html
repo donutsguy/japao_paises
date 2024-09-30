@@ -1,0 +1,24 @@
+<div class="login-container">
+    <mat-form-field>
+        <mat-label for="login">Login</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+        <mat-label>Enter your password</mat-label>
+        <input matInput [type]="hide() ? 'password' : 'text'" />
+        <button mat-icon-button matSuffix (click)="clickEvent($event)" [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide()">
+            <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+    </mat-form-field>
+</div>
+
+<button type="button" (click)="openModel()"
+    class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full px-6 py-3 text-center mb-2 ">
+    Sign-in
+</button>
+
+<app-model [isOpen]="isModelOpen" (closeModel)="closeModel()">
+    <app-user-form (onCloseModel)="closeModel()"></app-user-form>
+</app-model>

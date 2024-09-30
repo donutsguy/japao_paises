@@ -1,0 +1,11 @@
+<div class="gallery">
+    <div class="uniform-carousel-container">
+        <owl-carousel-o [options]="sliderOptions()" #slider>
+            <ng-container *ngFor="let slide of slidesStore()">
+                <ng-template carouselSlide [id]="slide.id">
+                    <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+    </div>
+</div>

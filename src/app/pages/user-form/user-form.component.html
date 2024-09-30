@@ -1,0 +1,43 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()" autocomplete="off" class="w-full" novalidate>
+    <div
+        [ngClass]="{'mb-10': !(userForm.get('name')?.hasError('required') && userForm.get('name')?.touched), 'px-4 py-2 border-2 border-grey rounded relative': true}">
+        <label for="name" class="absolute -my-4 -mx-2 bg-white px-2 text-grey-darker">Name</label>
+        <input type="text" id="name"
+            class="form-control appearance-none border-2 border-white rounded w-full py-2 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-white"
+            placeholder="Name" formControlName="name">
+    </div>
+    @if(userForm.get('name')?.hasError('required') && userForm.get('name')?.touched){
+    <div class="mb-5 form-error">Name is required</div>
+    }
+
+    <div
+        [ngClass]="{'mb-10': !(userForm.get('email')?.hasError('required') && userForm.get('email')?.touched), 'px-4 py-2 border-2 border-grey rounded relative': true}">
+        <label for="email" class="absolute -my-4 -mx-2 bg-white px-2 text-grey-darker">Email</label>
+        <input type="text" id="email"
+            class="form-control appearance-none border-2 border-white rounded w-full py-2 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-white"
+            placeholder="Email" formControlName="email">
+    </div>
+    @if(userForm.get('email')?.hasError('required') && userForm.get('email')?.touched){
+    <div class="mb-5 form-error">Email is required</div>
+    }
+
+    <div
+        [ngClass]="{'mb-10': !(userForm.get('password')?.hasError('required') && userForm.get('password')?.touched), 'px-4 py-2 border-2 border-grey rounded relative': true}">
+        <label for="password" class="absolute -my-4 -mx-2 bg-white px-2 text-grey-darker">Password</label>
+        <input type="password" id="password"
+            class="form-control appearance-none border-2 border-white rounded w-full py-2 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-white"
+            placeholder="Password" formControlName="password">
+    </div>
+    @if(userForm.get('password')?.hasError('required') && userForm.get('password')?.touched){
+    <div class="mb-5 form-error">Password is required</div>
+    }
+
+    <button type="submit"
+        class="bg-black text-white font-montserrat py-2 px-8 font-medium rounded-xl hover:bg-gray-700 transition-all duration-300">Submit
+    </button>
+
+    <button
+        class="border border-black text-black font-montserrat py-2 px-8 font-medium rounded-xl hover:bg-gray-200 transition-all duration-300"
+        (click)="onClose()">Cancel
+    </button>
+</form>
