@@ -1,11 +1,42 @@
-<div class="gallery">
-    <div class="uniform-carousel-container">
-        <owl-carousel-o [options]="sliderOptions()" #slider>
-            <ng-container *ngFor="let slide of slidesStore()">
-                <ng-template carouselSlide [id]="slide.id">
-                    <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
-                </ng-template>
-            </ng-container>
-        </owl-carousel-o>
+<h1 style="text-align: center; margin: 2%; font-weight: bold;" class="text-pink-200">Japan</h1>
+<img style="position: absolute; top: 100px; left: 500px; height: 100px;"
+    src="https://images.vexels.com/content/254289/preview/sakura-flowers-semi-flat-8c1860.png" alt="">
+<img style="position: absolute; top: 100px; right: 500px; height: 100px; transform: scaleX(-1);"
+    src="https://images.vexels.com/content/254289/preview/sakura-flowers-semi-flat-8c1860.png" alt="">
+<p style="text-align: center; margin: 3%; ">
+    Japan is a fascinating destination that combines ancient traditions with modern innovations,
+    <br> making it irresistible for tourists. The country is known for its rich cultural heritage, which
+    <br> includes tea ceremonies, traditional festivals, martial arts and exceptional cuisine.
+</p>
+<button type="button" style="position: absolute; top: 315px; right: 25px;"
+    class="text-black bg-gradient-to-br from-green-400 to-green-300 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+    add card
+</button>
+<div class="container">
+    <div class="gallery">
+        <ng-container *ngFor="let place of places()">
+            <div class="gallery-item bg-indigo-100">
+                <div class="uniform-carousel-container">
+                    <button (click)="openDeleteModel(place.id)" type="button"
+                        class="text-black bg-gradient-to-br from-red-300 to-pink-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">delete</button>
+                    <button type="button"
+                        class="text-black bg-gradient-to-br from-gray-400 to-gray-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-gray-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">edit</button>
+                    <owl-carousel-o [options]="sliderOptions()" #slider>
+                        <ng-container *ngFor="let image of getImagesForPlace(place.id)">
+                            <ng-template carouselSlide [id]="image.id">
+                                <img [src]="image.src">
+                            </ng-template>
+                        </ng-container>
+                    </owl-carousel-o>
+                    <b class="text-pink-400">{{place.id}}. {{place.title}}</b>
+                    <hr>
+                    <p>{{place.description}}</p>
+                </div>
+            </div>
+        </ng-container>
     </div>
 </div>
+
+<app-model [isOpen]="isModelOpen" (closeModel)="closeModel()">
+
+</app-model>

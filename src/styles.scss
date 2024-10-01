@@ -4,10 +4,9 @@
 @tailwind utilities;
 @import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
 @import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
-@import "ngx-toastr/toastr";
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     @apply bg-slate-50;
 }
@@ -15,5 +14,26 @@ body {
 @layer components {
     .form-error {
         @apply text-red-600 text-sm mt-1;
+    }
+}
+
+.custom-snackbar {
+    .mat-mdc-snack-bar-container .mdc-snackbar__surface {
+        border-radius: 2% !important;
+    }
+
+    .mat-mdc-button.mat-mdc-snack-bar-action {
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        color: black !important;
+    }
+}
+
+.snackbar-success {
+    .mdc-snackbar__surface {
+        background-color: #fce7f3 !important;
+    }
+
+    .mdc-snackbar__label {
+        color: black !important;
     }
 }

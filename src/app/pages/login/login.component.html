@@ -12,12 +12,15 @@
             <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
         </button>
     </mat-form-field>
+    <button type="submit"
+        class="bg-black text-white font-montserrat py-2 px-8 font-medium rounded-xl hover:bg-gray-700 transition-all duration-300">Sign-in
+    </button>
+    <a (click)="openModel()">
+        Doesn't have an account? Sign-up
+    </a>
 </div>
 
-<button type="button" (click)="openModel()"
-    class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none font-medium rounded-full px-6 py-3 text-center mb-2 ">
-    Sign-in
-</button>
+
 
 <app-model [isOpen]="isModelOpen" (closeModel)="closeModel()">
     <app-user-form (onCloseModel)="closeModel()"></app-user-form>

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { Login } from '../../models/login';
 import { Register } from '../../models/register';
 import { AuthService } from '../../services/auth.service';

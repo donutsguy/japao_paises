@@ -1,0 +1,10 @@
+Good evening everyone, my name is Murilo and today I will present my project paises.
+ the country I chose was Japan.
+  in this project I developed a SPA.
+  and the technologies I used were json server api and angular, some components of angular material to be more specific.
+Now let's see what I developed, firstly, here we have the home page which I couldn't develop, so let's go to the login page,
+ here we have a login form with two inputs and a login button, but I didn't have time to complete it.
+Here in sign up we have a form modal that pops up, and here we can fill it in with our data and sign up, and it doesn't work either.
+Now let's move on to the main functionality of the site, the Japan tourism part, here we are seeing a view of how the site administrator would see it, the administrator could add, edit and delete Japan tourism cards, we can see the images we have registered in each tourist location and we can delete a card if we want, this was a website that I managed to develop in two days, it's simple, but it helped me learn about styling and more about angular material, and thank you all for paying attention
+
+

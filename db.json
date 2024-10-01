@@ -1,0 +1,191 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "title": "Asahiyama Zoo",
+      "description": "Japan's northernmost zoo is one of the highlights of the Asahikawa area. Specializing mainly in cold climate species, there are more than 700 animals from 124 species housed in environments close to their habitats.​​​​"
+    },
+    {
+      "id": 2,
+      "title": "Ningle Terrace",
+      "description": "It is a charming village of small shops and crafts located in a forested area near the Furano ski resort on the island of Hokkaido, Japan. This village is made up of several wooden huts connected by wooden walkways, during winter when the Snow covers the area and the lights in the cabins create a magical atmosphere."
+    },
+    {
+      "id": 3,
+      "title": "Lavender fields in Furano (Hokkaido island)",
+      "description": "Located on the island of Hokkaido, these fields, which are usually in full bloom from June to August. There are other attractions to enjoy in this city. You can, for example, visit farms, visit the Furano Art Museum, go hiking to see panoramic views of mountains, lakes and fields, or relax in an onsen."
+    },
+    {
+      "id": 4,
+      "title": "Golden Gai",
+      "description": "Located in the capital, this tourist spot in Japan is made up of around 7 alleys, known for its more than 200 bars, stalls, pubs and karaoke bars, always frequented by artists, writers, musicians and academics."
+    },
+    {
+      "id": 5,
+      "title": "Imperial House of Japan",
+      "description": "The Imperial Palace was built on the site of Edo Castle, home to the Shogun before 1868. Surrounded by canals and a large park, it is the space where the 2020 Olympics were held."
+    },
+    {
+      "id": 6,
+      "title": "Jigokudani (Nagano)",
+      "description": "The Snow Monkey Park known as the Snow Monkey Park, it is located in Nagano, just an hour by train from Tokyo. In addition to the monkeys, Jigokudani is in the middle of a region full of beauty. The mountains are ideal for skiing and the landscape is adorned with pine trees, charming bridges and charming buildings."
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "src": "https://hokkaido.a4jp.com/wp-content/uploads/2021/08/hokkaido-asahiyama-zoo-ticket-1140x712.jpg",
+      "place_id": 1
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.getyourguide.com/img/tour/87aea42935f14da5.jpeg/98.jpg",
+      "place_id": 1
+    },
+    {
+      "id": 3,
+      "src": "https://i0.wp.com/supersillytraveller.com/wp-content/uploads/2017/06/1-red-Panda-on-bridge.jpg?fit=1200%2C675",
+      "place_id": 1
+    },
+    {
+      "id": 4,
+      "src": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/459000/459446-Asahiyama-Zoo.jpg",
+      "place_id": 1
+    },
+    {
+      "id": 5,
+      "src": "https://s3-ap-northeast-1.amazonaws.com/thegate/2021/01/07/12/56/39/Asahiyama-Zoo-Polar-bear.jpg",
+      "place_id": 1
+    },
+    {
+      "id": 6,
+      "src": "https://japanrailandtravel.com/wp-content/uploads/2019/02/201903hi0801-e1551853073462.jpg",
+      "place_id": 2
+    },
+    {
+      "id": 7,
+      "src": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/1270/11270_10_l.jpg",
+      "place_id": 2
+    },
+    {
+      "id": 8,
+      "src": "https://www.princehotels.com/shinfurano/wp-content/uploads/sites/40/2019/08/facade6.jpg",
+      "place_id": 2
+    },
+    {
+      "id": 9,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/130503_Ningle_Terrace_Furano_Hokkaido_Japan01s3.jpg/2560px-130503_Ningle_Terrace_Furano_Hokkaido_Japan01s3.jpg",
+      "place_id": 2
+    },
+    {
+      "id": 10,
+      "src": "https://a3.cdn.japantravel.com/photo/7659-54860/1000/hokkaido-ningle-terrace-54860.jpg",
+      "place_id": 2
+    },
+    {
+      "id": 11,
+      "src": "https://travel.rakuten.com/contents/sites/contents/files/styles/max_1300x1300/public/2024-05/lavender-hokkaido_11.jpg",
+      "place_id": 3
+    },
+    {
+      "id": 12,
+      "src": "https://storage.googleapis.com/ikidane/upload/2019_03_c000331_1_2e0d2f1bfc/2019_03_c000331_1_2e0d2f1bfc.jpg",
+      "place_id": 3
+    },
+    {
+      "id": 13,
+      "src": "https://www.tokyoweekender.com/wp-content/uploads/2020/08/Furano-Hokkaido-lavender-field-Tokyo-Weekender-feature-1.jpg",
+      "place_id": 3
+    },
+    {
+      "id": 14,
+      "src": "https://static.gltjp.com/glt/prd/data/directory/15000/14447/20230520_210420_e09ecfcd_w1920.jpg",
+      "place_id": 3
+    },
+    {
+      "id": 15,
+      "src": "https://us.images.westend61.de/0001342112pw/lavender-fields-furano-hokkaido-japan-asia-RHPLF13950.jpg",
+      "place_id": 3
+    },
+    {
+      "id": 16,
+      "src": "https://media.cntraveler.com/photos/5e6b90cb3639d3000809382d/16:9/w_2560,c_limit/GoldenGai-Tokyo-TTD-2020-TRRK68.jpg",
+      "place_id": 4
+    },
+    {
+      "id": 17,
+      "src": "https://digjapan.travel/files/topics/11162_ext_80_en_0.jpg",
+      "place_id": 4
+    },
+    {
+      "id": 18,
+      "src": "https://tateshina.co.jp/eng/wp-content/uploads/sites/8/2017/08/shinjuku-golden-gai-counter.jpg",
+      "place_id": 4
+    },
+    {
+      "id": 19,
+      "src": "https://miro.medium.com/v2/resize:fit:1400/1*D23v_slves0BKUSCBBCP4A.jpeg",
+      "place_id": 4
+    },
+    {
+      "id": 20,
+      "src": "https://i.ytimg.com/vi/1YXmdSVhA3M/maxresdefault.jpg",
+      "place_id": 4
+    },
+    {
+      "id": 21,
+      "src": "https://guidable.co/wp-content/uploads/2020/05/pexels-photo-1440476.jpeg",
+      "place_id": 5
+    },
+    {
+      "id": 22,
+      "src": "https://www.pelago.co/img/collections/imperial-palace/1103-0853_imperial-palace-tokyo-japan.jpg",
+      "place_id": 5
+    },
+    {
+      "id": 23,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Seimon_Ishibashi.JPG/1200px-Seimon_Ishibashi.JPG",
+      "place_id": 5
+    },
+    {
+      "id": 24,
+      "src": "https://live.staticflickr.com/65535/52980159201_368b9d44dc_b.jpg",
+      "place_id": 5
+    },
+    {
+      "id": 25,
+      "src": "https://findpenguins-media-bucket.s3.amazonaws.com/footprint/652512a8d54b88-20436920/5ut55sdmvgavf_l.jpg",
+      "place_id": 5
+    },
+    {
+      "id": 26,
+      "src": "https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2018/12/jigokudani-snow-monkeys_neptunestocks_iStock-1093957026-1024x600.jpg",
+      "place_id": 6
+    },
+    {
+      "id": 27,
+      "src": "https://www.snowmonkeyresorts.com/wp-content/uploads/2017/03/3333868_m-768x1024.jpg",
+      "place_id": 6
+    },
+    {
+      "id": 28,
+      "src": "https://lh3.googleusercontent.com/W0Mp7ExZVlTPI0_YeKQP9NtE8csiNmwz_9OV_PmWrG6iXvWkH2OUU6A2Xu7tyqSmnINGZohgQ9qgZPGfXilBn3Ej6EzeNA3NQrY1Rj9lz-dnCMpM_zcpca6MDyPw-3v7iX6rYdZSgkNIDcSSp7fN_oFv0AzDmQ71A0PAml5Eu7799EWXmDlA0zV84VVS-OxfptZo8D_TCyvIyK_Ta6Qj7H_ZA__snfboRQXwmOHXuorZEvzJRtbuaX0rJi2ProHPov4WNqu2Xc15Bxz9vt5SJEvPltXcRmUDn5RKf0-51J00XYnJibw0Um3BTGWzJrsNhnxaSYJRTJwLZd85hLMcjRXuiSE34e9XHj70DUUK8FWd9U5y4UI2HVhm8ZZDl8INAB9XPFv4nTcG503vTts7irhhK9er_UWyhV6-z-BBLA9OJWr3ZdDLhOe3Um2oQ1MPZS_PgHm9gfmf4--qi9_iHozoIOpqQ5O4pfE3HAgtXCRAlHXIc_mIpKIpU_GBKTzGjtHKTqR01eqK83R9NR0geQvVFM-AcbNr086cUIIhzcCePC0WlqwFlga1rGxF7Dmunvf-GT-ACrlMsKXcp_FCsV2W12PrU4GkaheIR4pjJ1pyRR_zZ_vO2WrzjQZ2z3DA2Qu-UOZ0SLC_GzvZNAgf6TqJ2Gb1QJQjd_5qj0kkmREqMyImnhxt0KVxaDdmZd9FQoMDRYmd8CYXE0Lsf5J7rP3CLQHbWYrdU9OdO5aEecj2uENi=w1303-h868-no",
+      "place_id": 6
+    },
+    {
+      "id": 29,
+      "src": "https://www.alpico.co.jp/en/manage/wp-content/uploads/snow-monkey-nagano-japan-1-1620x1080.jpg",
+      "place_id": 6
+    },
+    {
+      "id": 30,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jigokudani_Hotspring_Gorakuen.JPG",
+      "place_id": 6
+    },
+    {
+      "id": 30,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jigokudani_Hotspring_Gorakuen.JPG",
+      "place_id": 7
+    }
+  ]
+}
